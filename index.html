@@ -27,10 +27,8 @@
         window.addEventListener('uvLoaded', function (e) {
 
             var data = {
-                root: './uv',
                 iiifResourceUri: 'http://wellcomelibrary.org/iiif/b18035723/manifest',
-                configUri: 'uv-config.json',
-                locales: [ { name: 'en-GB' } ]
+                configUri: 'uv-config.json'
             };
 
             createUV('#uv', data, new UV.URLDataProvider());
