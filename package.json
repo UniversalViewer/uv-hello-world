@@ -1,0 +1,23 @@
+{
+  "name": "uv-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "rm -rf uv && cp -R node_modules/universalviewer/uv uv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UniversalViewer/uv-hello-world.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UniversalViewer/uv-hello-world/issues"
+  },
+  "homepage": "https://github.com/UniversalViewer/uv-hello-world#readme",
+  "dependencies": {
+    "universalviewer": "^3.0.22"
+  }
+}

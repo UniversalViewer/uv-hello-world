@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="uv/uv.css">
+    <script src="uv/lib/offline.js"></script>
+    <script src="uv/helpers.js"></script>
+    <title>UV Hello World</title>
+    <style>
+        #uv {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+
+        <div id="uv" class="uv"></div>
+
+    </main>
+
+    <script>
+
+        window.addEventListener('uvLoaded', function (e) {
+
+            var data = {
+                root: './uv',
+                iiifResourceUri: 'http://wellcomelibrary.org/iiif/b18035723/manifest',
+                configUri: 'uv-config.json',
+                locales: [ { name: 'en-GB' } ]
+            };
+
+            createUV('#uv', data, new UV.URLDataProvider());
+
+        }, false);
+
+    </script>
+
+    <script src="uv/uv.js"></script>
+</body>
+</html>
