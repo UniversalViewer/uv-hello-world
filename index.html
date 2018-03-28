@@ -23,12 +23,10 @@
 
         window.addEventListener('uvLoaded', function (e) {
 
-            var data = {
+            createUV('#uv', {
                 iiifResourceUri: 'http://wellcomelibrary.org/iiif/b18035723/manifest',
                 configUri: 'uv-config.json'
-            };
-
-            createUV('#uv', data, new UV.URLDataProvider());
+            }, new UV.URLDataProvider());
 
         }, false);
 
