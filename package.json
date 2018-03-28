@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "rm -rf uv && cp -R node_modules/universalviewer/uv uv"
+    "postinstall": "rm -rf uv && cp -R node_modules/universalviewer/uv uv",
+    "start": "http-server ./ -p 1234"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/UniversalViewer/uv-hello-world#readme",
   "dependencies": {
+    "http-server": "^0.11.1",
     "universalviewer": "^3.0.22"
   }
 }
