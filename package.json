@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "rm -rf uv && cp -R node_modules/universalviewer/uv uv",
+    "test": "rimraf uv && cp -R node_modules/universalviewer/uv uv",
     "start": "http-server ./ -p 1234"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "dependencies": {
     "http-server": "^0.11.1",
     "universalviewer": "^3.0.22"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
   }
 }
