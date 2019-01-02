@@ -21,12 +21,18 @@
 
     <script>
 
+        var myUV;
+
         window.addEventListener('uvLoaded', function (e) {
 
-            createUV('#uv', {
+            myUV = createUV('#uv', {
                 iiifResourceUri: 'http://wellcomelibrary.org/iiif/b18035723/manifest',
                 configUri: 'uv-config.json'
             }, new UV.URLDataProvider());
+
+            myUV.on("created", function(obj) {
+                console.log('metadata', myUV.extension.helper.manifest.getMetadata());
+            });
 
         }, false);
 
