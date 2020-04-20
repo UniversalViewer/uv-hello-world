@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "rimraf uv && cp -R node_modules/universalviewer/uv uv",
+    "copy": "rimraf uv && cp -R node_modules/universalviewer/uv uv",
     "start": "http-server ./ -p 1234"
   },
   "repository": {
