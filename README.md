@@ -1,8 +1,15 @@
-# uv-hello-world
+# UV 👋 🌎
+
+# Prerequisites
+
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/)
+
+Once these are installed, run the following commands in your terminal:
 
 ```
-npm i
+npm install
 npm start
 ```
 
-Open `localhost:5000` in a browser.
+Then open `localhost:5000` in a browser.
