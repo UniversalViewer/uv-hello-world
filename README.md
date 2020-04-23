@@ -1,6 +1,6 @@
-# UV 👋 🌎
+### UV 👋 🌎
 
-# Prerequisites
+#### Prerequisites
 
 - [Git](https://git-scm.com/)
 - [Node](https://nodejs.org/)
