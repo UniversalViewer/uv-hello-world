@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "copy": "rimraf uv && cp -R node_modules/universalviewer/uv uv",
-    "start": "http-server ./ -p 1234",
+    "start": "npx serve -p 5000",
     "postinstall": "npm run copy"
   },
   "repository": {
