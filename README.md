@@ -2,8 +2,7 @@
 
 ```
 npm i
-npm run copy
 npm start
 ```
 
-Open `localhost:1234` in a browser.
+Open `localhost:5000` in a browser.
