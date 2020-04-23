@@ -14,3 +14,5 @@ npm start
 ```
 
 Then browse to `localhost:5000`.
+
+Video guide: https://youtu.be/wHK5DmMYXZE
