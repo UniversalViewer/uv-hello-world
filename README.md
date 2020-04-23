@@ -5,11 +5,12 @@
 - [Git](https://git-scm.com/)
 - [Node](https://nodejs.org/)
 
-Once these are installed, run the following commands in your terminal:
+Once these are installed, clone this repository to your file system, then run the following commands in your terminal:
 
 ```
+cd uv-hello-world
 npm install
 npm start
 ```
 
-Then open `localhost:5000` in a browser.
+Then browse to `localhost:5000`.
