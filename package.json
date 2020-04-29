@@ -1,10 +1,9 @@
 {
   "name": "uv-hello-world",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "copy": "rimraf uv && cp -R node_modules/universalviewer/uv uv",
+    "copy": "rimraf public/* && cp -R node_modules/universalviewer/dist/** public",
     "start": "npx serve -p 5000",
     "postinstall": "npm run copy"
   },
@@ -20,10 +19,9 @@
   },
   "homepage": "https://github.com/UniversalViewer/uv-hello-world#readme",
   "dependencies": {
-    "http-server": "^0.11.1",
-    "universalviewer": "^3.0.22"
+    "universalviewer": "^4.0.0-pre.11"
   },
   "devDependencies": {
-    "rimraf": "^2.6.2"
+    "rimraf": "^3.0.2"
   }
 }
