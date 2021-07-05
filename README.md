@@ -1,5 +1,7 @@
 ### 👋 🌎
 
+# This uses UV v3, for v4 examples use https://github.com/UniversalViewer/uv-examples
+
 #### Prerequisites
 
 - [Git](https://git-scm.com/)
