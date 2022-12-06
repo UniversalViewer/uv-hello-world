@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/UniversalViewer/uv-hello-world#readme",
   "dependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "universalviewer": "^3.0.22"
   },
   "devDependencies": {
